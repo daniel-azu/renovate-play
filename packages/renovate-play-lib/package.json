@@ -1,6 +1,6 @@
 {
   "name": "renovate-play-lib",
   "dependencies": {
-    "lodash": "^4.16.0"
+    "lodash": "latest"
   }
 }
