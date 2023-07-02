@@ -1,6 +1,6 @@
 {
   "name": "renovate-play-lib",
   "dependencies": {
-    "typescript": "rc"
+    "@types/node": "ts3.7"
   }
 }

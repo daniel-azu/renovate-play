@@ -997,6 +997,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/node@npm:ts3.7":
+  version: 16.18.38
+  resolution: "@types/node@npm:16.18.38::__archiveUrl=https%3A%2F%2Frepo.dev.wixpress.com%2Fartifactory%2Fapi%2Fnpm%2Fnpm-repos%2F%40types%2Fnode%2F-%2Fnode-16.18.38.tgz"
+  checksum: a3baa141e49ce94486f083eea1240cf38479a73ba663e1bf3f52f85b466125821b6e3ea85ded38fde3901530aca4601291395a50eefcea533a4f3b45171bda28
+  languageName: node
+  linkType: hard
+
 "@types/normalize-package-data@npm:^2.4.0":
   version: 2.4.1
   resolution: "@types/normalize-package-data@npm:2.4.1::__archiveUrl=https%3A%2F%2Frepo.dev.wixpress.com%2Fartifactory%2Fapi%2Fnpm%2Fnpm-repos%2F%40types%2Fnormalize-package-data%2F-%2Fnormalize-package-data-2.4.1.tgz"
@@ -4390,7 +4397,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "renovate-play-lib@workspace:packages/renovate-play-lib"
   dependencies:
-    typescript: rc
+    "@types/node": ts3.7
   languageName: unknown
   linkType: soft
 
@@ -5201,26 +5208,6 @@ __metadata:
     tunnel: 0.0.6
     underscore: ^1.12.1
   checksum: baba87806381cb8e686e07dc0907bbc4a7588410f13f73f5a9fe662274d1961b84d0037bf2cb3966cb288ed6146b3350edcd896c42422f7dbc06625c347f3035
-  languageName: node
-  linkType: hard
-
-"typescript@npm:rc":
-  version: 3.9.2
-  resolution: "typescript@npm:3.9.2::__archiveUrl=https%3A%2F%2Frepo.dev.wixpress.com%2Fartifactory%2Fapi%2Fnpm%2Fnpm-repos%2Ftypescript%2F-%2Ftypescript-3.9.2.tgz"
-  bin:
-    tsc: bin/tsc
-    tsserver: bin/tsserver
-  checksum: f91fd74198ba8927f3514c83ceefc3f41791c91ecc1f0cf7d6a8cb14eec8a6571f342a4a6fc199ed04b9c0620830178651c541b3bf0413eccac7f662e65dbb69
-  languageName: node
-  linkType: hard
-
-"typescript@patch:typescript@rc#~builtin<compat/typescript>":
-  version: 3.9.2
-  resolution: "typescript@patch:typescript@npm%3A3.9.2%3A%3A__archiveUrl=https%253A%252F%252Frepo.dev.wixpress.com%252Fartifactory%252Fapi%252Fnpm%252Fnpm-repos%252Ftypescript%252F-%252Ftypescript-3.9.2.tgz#~builtin<compat/typescript>::version=3.9.2&hash=bda367"
-  bin:
-    tsc: bin/tsc
-    tsserver: bin/tsserver
-  checksum: 71b5e03ac2cbd005ff97d37f6f5a47a59d3570234b16ef6a55d33f2027315397681dbbb3af2644cb2865ca22bb3d200275bb6e516eea771845dcb07d4e1ac924
   languageName: node
   linkType: hard
 
