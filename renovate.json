@@ -12,12 +12,10 @@
         "dependencies",
         "devDependencies"
       ],
-      "updateTypes": [
-        "minor",
-        "patch"
-      ],
       "groupName": "all",
-      "automerge": true
+      "automerge": true,
+      "matchPackageNames": ["@types/node"],
+      "followTag": "ts3.7"
     }
   ]
 }
