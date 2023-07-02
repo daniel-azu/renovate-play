@@ -4390,7 +4390,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "renovate-play-lib@workspace:packages/renovate-play-lib"
   dependencies:
-    typescript: ^3.9.2
+    typescript: rc
   languageName: unknown
   linkType: soft
 
@@ -5204,7 +5204,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:^3.9.2":
+"typescript@npm:rc":
   version: 3.9.2
   resolution: "typescript@npm:3.9.2::__archiveUrl=https%3A%2F%2Frepo.dev.wixpress.com%2Fartifactory%2Fapi%2Fnpm%2Fnpm-repos%2Ftypescript%2F-%2Ftypescript-3.9.2.tgz"
   bin:
@@ -5214,7 +5214,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@^3.9.2#~builtin<compat/typescript>":
+"typescript@patch:typescript@rc#~builtin<compat/typescript>":
   version: 3.9.2
   resolution: "typescript@patch:typescript@npm%3A3.9.2%3A%3A__archiveUrl=https%253A%252F%252Frepo.dev.wixpress.com%252Fartifactory%252Fapi%252Fnpm%252Fnpm-repos%252Ftypescript%252F-%252Ftypescript-3.9.2.tgz#~builtin<compat/typescript>::version=3.9.2&hash=bda367"
   bin:
