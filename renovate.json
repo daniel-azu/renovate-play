@@ -8,7 +8,19 @@
     ],
     "packageRules": [
       {
-        "matchPackageNames": ["*"],
+        "matchDepTypes": [
+          "dependencies",
+          "devDependencies"
+        ],
+        "updateTypes": [
+          "minor",
+          "patch"
+        ],
+        "groupName": "all",
+        "automerge": true
+      },
+      {
+        "matchPackageNames": ["renovate-dep-test"],
         "followTag": "ga"
       }
     ]
