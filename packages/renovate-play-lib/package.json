@@ -1,6 +1,6 @@
 {
   "name": "renovate-play-lib",
   "dependencies": {
-    "react": "next"
+    "renovate-dep-test": "ga"
   }
 }
