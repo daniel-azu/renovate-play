@@ -3,10 +3,19 @@
   "onboarding": false,
   "requireConfig": false,
   "enabledManagers": ["npm"],
+  "extends": [
+    "config:base"
+  ],
   "packageRules": [
     {
+      "matchDepTypes": [
+        "dependencies",
+        "devDependencies"
+      ],
       "matchPackageNames": ["react"],
-      "followTag": "latest"
+      "followTag": "latest",
+      "groupName": "all",
+      "automerge": true
     }
   ]
 }
