@@ -20,7 +20,7 @@
         "automerge": true
       },
       {
-        "matchPackageNames": ["renovate-play-lib"],
+        "matchPackageNames": ["renovate-dep-test"],
         "followTag": "ga"
       }
     ]
