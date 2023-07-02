@@ -17,7 +17,9 @@
         "patch"
       ],
       "groupName": "all",
-      "automerge": true
+      "automerge": true,
+      "matchPackageNames": ["typescript"],
+      "followTag": "rc"
     }
   ]
 }
