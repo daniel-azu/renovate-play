@@ -6,6 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "workspaces": [
+    "packages/**"
+  ],
+  "packageManager": "yarn@3.2.0",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/daniel-azu/renovate-play.git"
@@ -18,7 +22,6 @@
   },
   "homepage": "https://github.com/daniel-azu/renovate-play#readme",
   "dependencies": {
-    "lodash": "^4.16.0",
     "renovate": "^26.0.0"
   }
 }

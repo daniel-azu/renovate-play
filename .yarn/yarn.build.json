@@ -1,0 +1,54 @@
+{
+  "comment": "This is an auto-generated file, it keeps track of whats been built. This is a local file, don't store this in version control.",
+  "packages": {
+    "packages/mre-protos#build": {
+      "lastModified": 1674141042067.305,
+      "status": "succeeded",
+      "haveCheckedForRerun": false,
+      "rerun": true,
+      "command": "build"
+    },
+    "packages/detox-runner#build": {
+      "lastModified": 1675256552239.5305,
+      "status": "succeeded",
+      "haveCheckedForRerun": false,
+      "rerun": true,
+      "command": "build"
+    },
+    "packages/yarn-utils#build": {
+      "lastModified": 1685513240873.087,
+      "status": "succeeded",
+      "haveCheckedForRerun": false,
+      "rerun": true,
+      "command": "build"
+    },
+    "packages/mini-bundler#build": {
+      "lastModified": 1683798946118.8596,
+      "status": "succeeded",
+      "haveCheckedForRerun": false,
+      "rerun": true,
+      "command": "build"
+    },
+    "packages/ts-utils#build": {
+      "lastModified": 1685875606262.742,
+      "status": "succeeded",
+      "haveCheckedForRerun": false,
+      "rerun": true,
+      "command": "build"
+    },
+    "packages/monorepo-utils#build": {
+      "lastModified": 1685617144762.7102,
+      "status": "succeeded",
+      "haveCheckedForRerun": false,
+      "rerun": true,
+      "command": "build"
+    },
+    "packages/mobile-infra-utils#build": {
+      "lastModified": 1686127166691.017,
+      "status": "succeeded",
+      "haveCheckedForRerun": true,
+      "rerun": false,
+      "command": "build"
+    }
+  }
+}
