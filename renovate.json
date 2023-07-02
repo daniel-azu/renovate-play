@@ -3,9 +3,6 @@
     "onboarding": false,
     "requireConfig": false,
     "enabledManagers": ["npm"],
-    "extends": [
-      "config:base"
-    ],
     "packageRules": [
       {
         "matchPackageNames": ["renovate-play-lib"],
