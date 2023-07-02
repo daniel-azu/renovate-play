@@ -4388,9 +4388,9 @@ __metadata:
   linkType: soft
 
 "renovate-dep-test@npm:^1.0.0":
-  version: 1.0.1
-  resolution: "renovate-dep-test@npm:1.0.1::__archiveUrl=https%3A%2F%2Frepo.dev.wixpress.com%2Fartifactory%2Fapi%2Fnpm%2Fnpm-repos%2Frenovate-dep-test%2F-%2Frenovate-dep-test-1.0.1.tgz"
-  checksum: 3a875803ff9d0fdd370fc2cdd04392a4ec229baf9bcb686bfbd19e85656b071a54c4028e86b763ac5f4ed7f4ef737c4c471a8ba399207e8fee1c9c6aae5427c4
+  version: 1.0.4
+  resolution: "renovate-dep-test@npm:1.0.4::__archiveUrl=https%3A%2F%2Frepo.dev.wixpress.com%2Fartifactory%2Fapi%2Fnpm%2Fnpm-repos%2Frenovate-dep-test%2F-%2Frenovate-dep-test-1.0.4.tgz"
+  checksum: b99eb5cb8c533388b398a3f9be98373c2fd5e35080efe7a6601edce68ee56b847669f8f30a5ad9093050e7628ad673facfdba2ef7081a499d8ffd822feb83df2
   languageName: node
   linkType: hard
 
