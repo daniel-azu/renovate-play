@@ -23,6 +23,5 @@
         "matchPackageNames": ["typescript"],
         "followTag": "latest"
       }
-    ],
-    "fl"
+    ]
   }
