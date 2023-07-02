@@ -12,10 +12,8 @@
         "dependencies",
         "devDependencies"
       ],
-      "updateTypes": [
-        "minor",
-        "patch"
-      ],
+      "matchPackageNames": ["react"],
+      "followTag": "latest",
       "groupName": "all",
       "automerge": true
     }
