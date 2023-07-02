@@ -1,21 +1,8 @@
 {
-    "platform": "github",
-    "onboarding": false,
-    "requireConfig": false,
-    "enabledManagers": ["npm"],
-    "extends": [
-      "config:base"
-    ],
-    "packageRules": [
-      {
-        "matchDepTypes": [
-          "dependencies",
-          "devDependencies"
-        ],
-        "groupName": "all",
-        "automerge": true,
-        "matchPackageNames": ["renovate-dep-test"],
-        "followTag": "ga"
-      }
-    ]
-  }
+  "packageRules": [
+    {
+      "matchPackageNames": ["renovate-dep-test"],
+      "followTag": "ga"
+    }
+  ]
+}
