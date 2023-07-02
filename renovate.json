@@ -20,7 +20,7 @@
         "automerge": true
       },
       {
-        "matchPackageNames": ["typescript"],
+        "matchPackageNames": ["*"],
         "followTag": "ga"
       }
     ]
