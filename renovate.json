@@ -4,8 +4,7 @@
     "requireConfig": false,
     "enabledManagers": ["npm"],
     "extends": [
-      "config:base",
-      "packageManager:yarn"
+      "config:base"
     ],
     "packageRules": [
       {
