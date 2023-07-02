@@ -8,14 +8,8 @@
   ],
   "packageRules": [
     {
-      "matchDepTypes": [
-        "dependencies",
-        "devDependencies"
-      ],
       "matchPackageNames": ["react"],
-      "followTag": "latest",
-      "groupName": "all",
-      "automerge": true
+      "followTag": "latest"
     }
   ]
 }
