@@ -4383,6 +4383,7 @@ __metadata:
   resolution: "reno-pla-daniel-azu@workspace:."
   dependencies:
     renovate: ^26.0.0
+    renovate-dep-test: ^1.0.0
   languageName: unknown
   linkType: soft
 
