@@ -1,6 +1,6 @@
 {
   "name": "renovate-play-lib",
   "dependencies": {
-    "react": "latest"
+    "react": "next"
   }
 }

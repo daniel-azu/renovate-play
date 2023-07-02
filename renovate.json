@@ -13,7 +13,7 @@
         "devDependencies"
       ],
       "packageNames": ["react"],
-      "followTag": "latest",
+      "followTag": "next",
       "groupName": "all",
       "automerge": true
     }

@@ -4246,7 +4246,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react@npm:latest":
+"react@npm:next":
   version: 17.0.0
   resolution: "react@npm:17.0.0::__archiveUrl=https%3A%2F%2Frepo.dev.wixpress.com%2Fartifactory%2Fapi%2Fnpm%2Fnpm-repos%2Freact%2F-%2Freact-17.0.0.tgz"
   dependencies:
@@ -4418,7 +4418,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "renovate-play-lib@workspace:packages/renovate-play-lib"
   dependencies:
-    react: latest
+    react: next
   languageName: unknown
   linkType: soft
 
