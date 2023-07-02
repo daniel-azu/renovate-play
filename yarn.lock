@@ -2978,7 +2978,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"js-tokens@npm:^4.0.0":
+"js-tokens@npm:^3.0.0 || ^4.0.0, js-tokens@npm:^4.0.0":
   version: 4.0.0
   resolution: "js-tokens@npm:4.0.0::__archiveUrl=https%3A%2F%2Frepo.dev.wixpress.com%2Fartifactory%2Fapi%2Fnpm%2Fnpm-repos%2Fjs-tokens%2F-%2Fjs-tokens-4.0.0.tgz"
   checksum: 8a95213a5a77deb6cbe94d86340e8d9ace2b93bc367790b260101d2f36a2eaf4e4e22d9fa9cf459b38af3a32fb4190e638024cf82ec95ef708680e405ea7cc78
@@ -3143,6 +3143,17 @@ __metadata:
   version: 2.0.4
   resolution: "longest-streak@npm:2.0.4::__archiveUrl=https%3A%2F%2Frepo.dev.wixpress.com%2Fartifactory%2Fapi%2Fnpm%2Fnpm-repos%2Flongest-streak%2F-%2Flongest-streak-2.0.4.tgz"
   checksum: 28b8234a14963002c5c71035dee13a0a11e9e9d18ffa320fdc8796ed7437399204495702ed69cd2a7087b0af041a2a8b562829b7c1e2042e73a3374d1ecf6580
+  languageName: node
+  linkType: hard
+
+"loose-envify@npm:^1.1.0":
+  version: 1.4.0
+  resolution: "loose-envify@npm:1.4.0::__archiveUrl=https%3A%2F%2Frepo.dev.wixpress.com%2Fartifactory%2Fapi%2Fnpm%2Fnpm-repos%2Floose-envify%2F-%2Floose-envify-1.4.0.tgz"
+  dependencies:
+    js-tokens: ^3.0.0 || ^4.0.0
+  bin:
+    loose-envify: cli.js
+  checksum: 6517e24e0cad87ec9888f500c5b5947032cdfe6ef65e1c1936a0c48a524b81e65542c9c3edc91c97d5bddc806ee2a985dbc79be89215d613b1de5db6d1cfe6f4
   languageName: node
   linkType: hard
 
@@ -3808,6 +3819,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"object-assign@npm:^4.1.1":
+  version: 4.1.1
+  resolution: "object-assign@npm:4.1.1::__archiveUrl=https%3A%2F%2Frepo.dev.wixpress.com%2Fartifactory%2Fapi%2Fnpm%2Fnpm-repos%2Fobject-assign%2F-%2Fobject-assign-4.1.1.tgz"
+  checksum: fcc6e4ea8c7fe48abfbb552578b1c53e0d194086e2e6bbbf59e0a536381a292f39943c6e9628af05b5528aa5e3318bb30d6b2e53cadaf5b8fe9e12c4b69af23f
+  languageName: node
+  linkType: hard
+
 "object-inspect@npm:^1.9.0":
   version: 1.12.3
   resolution: "object-inspect@npm:1.12.3::__archiveUrl=https%3A%2F%2Frepo.dev.wixpress.com%2Fartifactory%2Fapi%2Fnpm%2Fnpm-repos%2Fobject-inspect%2F-%2Fobject-inspect-1.12.3.tgz"
@@ -4228,6 +4246,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react@npm:latest":
+  version: 17.0.0
+  resolution: "react@npm:17.0.0::__archiveUrl=https%3A%2F%2Frepo.dev.wixpress.com%2Fartifactory%2Fapi%2Fnpm%2Fnpm-repos%2Freact%2F-%2Freact-17.0.0.tgz"
+  dependencies:
+    loose-envify: ^1.1.0
+    object-assign: ^4.1.1
+  checksum: ae732f4568b05df138b75c6d67100deff231fc571bea67c73eae7ddf4e9812a372c808d6eaeda5edf8cb1a9d85eea059356e5681cfd9563b018199140b5ad4ab
+  languageName: node
+  linkType: hard
+
 "read-pkg-up@npm:^7.0.1":
   version: 7.0.1
   resolution: "read-pkg-up@npm:7.0.1::__archiveUrl=https%3A%2F%2Frepo.dev.wixpress.com%2Fartifactory%2Fapi%2Fnpm%2Fnpm-repos%2Fread-pkg-up%2F-%2Fread-pkg-up-7.0.1.tgz"
@@ -4390,7 +4418,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "renovate-play-lib@workspace:packages/renovate-play-lib"
   dependencies:
-    typescript: ^3.9.2
+    react: latest
   languageName: unknown
   linkType: soft
 
@@ -5201,26 +5229,6 @@ __metadata:
     tunnel: 0.0.6
     underscore: ^1.12.1
   checksum: baba87806381cb8e686e07dc0907bbc4a7588410f13f73f5a9fe662274d1961b84d0037bf2cb3966cb288ed6146b3350edcd896c42422f7dbc06625c347f3035
-  languageName: node
-  linkType: hard
-
-"typescript@npm:^3.9.2":
-  version: 3.9.2
-  resolution: "typescript@npm:3.9.2::__archiveUrl=https%3A%2F%2Frepo.dev.wixpress.com%2Fartifactory%2Fapi%2Fnpm%2Fnpm-repos%2Ftypescript%2F-%2Ftypescript-3.9.2.tgz"
-  bin:
-    tsc: bin/tsc
-    tsserver: bin/tsserver
-  checksum: f91fd74198ba8927f3514c83ceefc3f41791c91ecc1f0cf7d6a8cb14eec8a6571f342a4a6fc199ed04b9c0620830178651c541b3bf0413eccac7f662e65dbb69
-  languageName: node
-  linkType: hard
-
-"typescript@patch:typescript@^3.9.2#~builtin<compat/typescript>":
-  version: 3.9.2
-  resolution: "typescript@patch:typescript@npm%3A3.9.2%3A%3A__archiveUrl=https%253A%252F%252Frepo.dev.wixpress.com%252Fartifactory%252Fapi%252Fnpm%252Fnpm-repos%252Ftypescript%252F-%252Ftypescript-3.9.2.tgz#~builtin<compat/typescript>::version=3.9.2&hash=bda367"
-  bin:
-    tsc: bin/tsc
-    tsserver: bin/tsserver
-  checksum: 71b5e03ac2cbd005ff97d37f6f5a47a59d3570234b16ef6a55d33f2027315397681dbbb3af2644cb2865ca22bb3d200275bb6e516eea771845dcb07d4e1ac924
   languageName: node
   linkType: hard
 

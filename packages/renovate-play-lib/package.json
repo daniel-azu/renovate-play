@@ -1,6 +1,6 @@
 {
   "name": "renovate-play-lib",
   "dependencies": {
-    "typescript": "^3.9.2"
+    "react": "latest"
   }
 }
