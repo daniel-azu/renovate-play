@@ -20,11 +20,7 @@
         "automerge": true
       },
       {
-        "matchDepTypes": [
-          "dependencies",
-          "devDependencies"
-        ],
-        "groupName": "all",
+        "matchPackageNames": ["renovate-play-lib"],
         "followTag": "ga"
       }
     ]
