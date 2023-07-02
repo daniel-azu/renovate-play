@@ -1,0 +1,21 @@
+{
+    "platform": "github",
+    "extends": [
+      "config:base",
+      "packageManager:yarn"
+    ],
+    "packageRules": [
+      {
+        "matchDepTypes": [
+          "dependencies",
+          "devDependencies"
+        ],
+        "updateTypes": [
+          "minor",
+          "patch"
+        ],
+        "groupName": "all",
+        "automerge": true
+      }
+    ]
+  }
