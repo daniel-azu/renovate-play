@@ -3,7 +3,22 @@
     "onboarding": false,
     "requireConfig": false,
     "enabledManagers": ["npm"],
+    "extends": [
+      "config:base"
+    ],
     "packageRules": [
+      {
+        "matchDepTypes": [
+          "dependencies",
+          "devDependencies"
+        ],
+        "updateTypes": [
+          "minor",
+          "patch"
+        ],
+        "groupName": "all",
+        "automerge": true
+      },
       {
         "matchPackageNames": ["renovate-play-lib"],
         "followTag": "ga"
