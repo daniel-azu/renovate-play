@@ -22,7 +22,6 @@
   },
   "homepage": "https://github.com/daniel-azu/renovate-play#readme",
   "dependencies": {
-    "renovate": "^26.0.0",
-    "renovate-dep-test": "^1.0.0"
+    "renovate": "^26.0.0"
   }
 }

@@ -4383,22 +4383,14 @@ __metadata:
   resolution: "reno-pla-daniel-azu@workspace:."
   dependencies:
     renovate: ^26.0.0
-    renovate-dep-test: ^1.0.0
   languageName: unknown
   linkType: soft
-
-"renovate-dep-test@npm:^1.0.0":
-  version: 1.0.1
-  resolution: "renovate-dep-test@npm:1.0.1::__archiveUrl=https%3A%2F%2Frepo.dev.wixpress.com%2Fartifactory%2Fapi%2Fnpm%2Fnpm-repos%2Frenovate-dep-test%2F-%2Frenovate-dep-test-1.0.1.tgz"
-  checksum: 3a875803ff9d0fdd370fc2cdd04392a4ec229baf9bcb686bfbd19e85656b071a54c4028e86b763ac5f4ed7f4ef737c4c471a8ba399207e8fee1c9c6aae5427c4
-  languageName: node
-  linkType: hard
 
 "renovate-play-lib@workspace:packages/renovate-play-lib":
   version: 0.0.0-use.local
   resolution: "renovate-play-lib@workspace:packages/renovate-play-lib"
   dependencies:
-    renovate-dep-test: ^1.0.0
+    typescript: ^3.9.2
   languageName: unknown
   linkType: soft
 
@@ -5209,6 +5201,26 @@ __metadata:
     tunnel: 0.0.6
     underscore: ^1.12.1
   checksum: baba87806381cb8e686e07dc0907bbc4a7588410f13f73f5a9fe662274d1961b84d0037bf2cb3966cb288ed6146b3350edcd896c42422f7dbc06625c347f3035
+  languageName: node
+  linkType: hard
+
+"typescript@npm:^3.9.2":
+  version: 3.9.2
+  resolution: "typescript@npm:3.9.2::__archiveUrl=https%3A%2F%2Frepo.dev.wixpress.com%2Fartifactory%2Fapi%2Fnpm%2Fnpm-repos%2Ftypescript%2F-%2Ftypescript-3.9.2.tgz"
+  bin:
+    tsc: bin/tsc
+    tsserver: bin/tsserver
+  checksum: f91fd74198ba8927f3514c83ceefc3f41791c91ecc1f0cf7d6a8cb14eec8a6571f342a4a6fc199ed04b9c0620830178651c541b3bf0413eccac7f662e65dbb69
+  languageName: node
+  linkType: hard
+
+"typescript@patch:typescript@^3.9.2#~builtin<compat/typescript>":
+  version: 3.9.2
+  resolution: "typescript@patch:typescript@npm%3A3.9.2%3A%3A__archiveUrl=https%253A%252F%252Frepo.dev.wixpress.com%252Fartifactory%252Fapi%252Fnpm%252Fnpm-repos%252Ftypescript%252F-%252Ftypescript-3.9.2.tgz#~builtin<compat/typescript>::version=3.9.2&hash=bda367"
+  bin:
+    tsc: bin/tsc
+    tsserver: bin/tsserver
+  checksum: 71b5e03ac2cbd005ff97d37f6f5a47a59d3570234b16ef6a55d33f2027315397681dbbb3af2644cb2865ca22bb3d200275bb6e516eea771845dcb07d4e1ac924
   languageName: node
   linkType: hard
 
