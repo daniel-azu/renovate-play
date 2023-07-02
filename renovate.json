@@ -21,7 +21,7 @@
       },
       {
         "matchPackageNames": ["typescript"],
-        "followTag": "latest"
+        "followTag": "ga"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "name": "renovate-play-lib",
   "dependencies": {
-    "lodash": "latest"
+    "renovate-dep-test": "ga"
   }
 }
