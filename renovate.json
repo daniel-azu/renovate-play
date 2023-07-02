@@ -1,5 +1,8 @@
 {
     "platform": "github",
+    "onboarding": false,
+    "requireConfig": false,
+    "enabledManagers": ["npm"],
     "extends": [
       "config:base",
       "packageManager:yarn"

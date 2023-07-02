@@ -10,6 +10,6 @@
     "packages/**"
   ],
   "dependencies": {
-    "renovate": "^35.157.0"
+    "renovate": "^26.0.0"
   }
 }
