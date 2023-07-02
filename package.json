@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/daniel-azu/renovate-play#readme",
   "dependencies": {
-    "lodash": "^4.16.0"
+    "lodash": "^4.16.0",
+    "renovate": "^26.0.0"
   }
 }
