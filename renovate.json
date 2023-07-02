@@ -12,7 +12,7 @@
         "dependencies",
         "devDependencies"
       ],
-      "matchPackageNames": ["react"],
+      "packageNames": ["react"],
       "followTag": "latest",
       "groupName": "all",
       "automerge": true
