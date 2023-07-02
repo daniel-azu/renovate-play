@@ -1,21 +1,27 @@
 {
-  "platform": "github",
-  "onboarding": false,
-  "requireConfig": false,
-  "enabledManagers": ["npm"],
-  "extends": [
-    "config:base"
-  ],
-  "packageRules": [
-    {
-      "matchDepTypes": [
-        "dependencies",
-        "devDependencies"
-      ],
-      "packageNames": ["react"],
-      "followTag": "next",
-      "groupName": "all",
-      "automerge": true
-    }
-  ]
-}
+    "platform": "github",
+    "onboarding": false,
+    "requireConfig": false,
+    "enabledManagers": ["npm"],
+    "extends": [
+      "config:base"
+    ],
+    "packageRules": [
+      {
+        "matchDepTypes": [
+          "dependencies",
+          "devDependencies"
+        ],
+        "updateTypes": [
+          "minor",
+          "patch"
+        ],
+        "groupName": "all",
+        "automerge": true
+      },
+      {
+        "groupName": "all",
+        "followTag": "next"
+      }
+    ]
+  }
