@@ -4386,10 +4386,10 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"renovate-dep-test@npm:^1.0.8":
-  version: 1.0.11
-  resolution: "renovate-dep-test@npm:1.0.11::__archiveUrl=https%3A%2F%2Frepo.dev.wixpress.com%2Fartifactory%2Fapi%2Fnpm%2Fnpm-repos%2Frenovate-dep-test%2F-%2Frenovate-dep-test-1.0.11.tgz"
-  checksum: 048f9184b90525082401fc8ac5eda9dde5b3c6034c26ef7bdf9042b6c1680f20c8ec00a7f4c00e2d8c9e09bd6fde3e823bcc731b478ea1cdab32c458ee619a1a
+"renovate-dep-test@npm:1.0.12":
+  version: 1.0.12
+  resolution: "renovate-dep-test@npm:1.0.12::__archiveUrl=https%3A%2F%2Frepo.dev.wixpress.com%2Fartifactory%2Fapi%2Fnpm%2Fnpm-repos%2Frenovate-dep-test%2F-%2Frenovate-dep-test-1.0.12.tgz"
+  checksum: a72582d8610208aa13f98d4859d3082668ead015417306d23e1706beea48d1d24f3c66432879124468caf58808fdbb94a4964978629eb357ec4458228e46e9ee
   languageName: node
   linkType: hard
 
@@ -4397,7 +4397,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "renovate-play-lib@workspace:packages/renovate-play-lib"
   dependencies:
-    renovate-dep-test: ^1.0.8
+    renovate-dep-test: 1.0.12
   languageName: unknown
   linkType: soft
 
